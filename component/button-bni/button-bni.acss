@@ -1,0 +1,17 @@
+button{
+  background: orange;
+  color: white;
+  border-radius: 5px;
+}
+
+.large{
+  width: 96vw
+}
+
+.medium{
+  width: 46vw
+}
+
+.small{
+  width: 21vw
+}

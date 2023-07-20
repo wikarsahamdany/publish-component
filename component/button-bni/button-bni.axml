@@ -1,0 +1,10 @@
+<button
+  onTap="onTap"
+  class="{{size}}"
+  type="{{type}}"
+  loading={{loading}}
+  disabled={{disabled}}
+  form-type="{{formType}}"
+>
+  <slot></slot>
+</button>

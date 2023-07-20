@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="title">{{title}}</view>
+  <view class="slider-container">
+    <slider
+      value="33"
+      onChange="slider4change"
+      min="25"
+      max="50"
+      show-value
+      name="slider"
+      active-color="{{activeColor}}"
+      handle-color="{{handleColor}}"
+      track-size="10"
+      handle-size="10"
+    />
+  </view>
+</view>

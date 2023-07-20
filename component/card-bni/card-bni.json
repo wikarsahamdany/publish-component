@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "container-bni" : "/component/container-bni/container-bni"
+  }
+}

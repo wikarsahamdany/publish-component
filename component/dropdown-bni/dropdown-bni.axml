@@ -1,0 +1,42 @@
+<view class="container">
+  <button class="dropdown-toggle" onTap="toggleDropDown">
+    {{valueData ? valueData : defaultValue}} ⌵
+  </button>
+  <scroll-view a:if="{{ isDropdownOpen }}" class="dropdown-menu">
+    <block a:for="{{ items }}" a:for-item="dropdownData">
+      <view class="dropdown-item" onTap="onChange" data-value={{dropdownData.name}}>{{dropdownData.name}}</view>
+    </block>
+  </scroll-view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <picker value="{{valueData}}">
+  <view>
+    Current：{{'Autumn'}}
+  </view>
+</picker>
+
+<picker-view value="{{valueData}}" onChange="onChange" class="my-picker">
+  <picker-view-column>
+    <view>2011</view>
+  </picker-view-column>
+  <picker-view-column>
+    <view>春</view>
+  </picker-view-column>
+  <picker-view-column>
+    <view>春</view>
+  </picker-view-column>
+</picker-view> -->

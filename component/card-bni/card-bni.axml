@@ -1,0 +1,5 @@
+<view class="card" style="background: {{colorData}}">
+  <view class="content">
+    <slot></slot>
+  </view>
+</view>

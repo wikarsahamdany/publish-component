@@ -1,0 +1,6 @@
+<radio-group class="radio-group" name="radio">
+  <text class="title">{{title}}</text>
+  <view class="radio">
+    <slot></slot>
+  </view>
+</radio-group>

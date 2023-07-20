@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "radio-button" : "/component/radio-button/radio-button",
+    "slider-bni" : "/component/slider-bni/slider-bni",
+    "container-bni" : "/component/container-bni/container-bni",
+    "button-bni" : "/component/button-bni/button-bni",
+    "card-bni" : "/component/card-bni/card-bni",
+    "dropdown-bni" : "/component/dropdown-bni/dropdown-bni"
+  }
+}

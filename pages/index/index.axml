@@ -1,0 +1,23 @@
+<container-bni>
+  <form onSubmit="onSubmit">
+    <view class="gap">
+
+      <slider-bni title="Slider" activeColor="orange" handleColor="orange" />
+
+      <radio-button title="Radio Button" items="{{items}}" value={{items.name}}>
+        <label a:for="{{items}}" key="{{index}}">
+          <radio color="orange" value="{{item.name}}" checked="{{item.checked}}" />
+          <text class="radio-text">{{item.value}}</text>
+        </label>
+      </radio-button>
+
+      <dropdown-bni defaultValue="Dropdown" items={{items}} name="dropdown"/>
+
+
+      <button-bni size="large" formType="submit">Button</button-bni>
+    </view>
+  </form>
+
+  <card-bni></card-bni>
+
+</container-bni>

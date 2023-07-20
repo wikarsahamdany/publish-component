@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+  "button-bni" : "/component/button-bni/button-bni"
+  }
+}

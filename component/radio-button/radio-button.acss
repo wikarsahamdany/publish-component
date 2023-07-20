@@ -1,0 +1,15 @@
+.radio-group{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.radio {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20rpx;
+}
+
+.title{
+  color: gray;
+}
